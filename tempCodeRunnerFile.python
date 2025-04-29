@@ -1,7 +1,5 @@
-#write a Python program that accepts an integer (n) and computes the value of n+nn+nnn. Go to the editor
-# Sample value of n is 5 
-# Expected Result : 615
-
-n= input("enter an integer: ")
-result=int(n)+int(n*2)+int(n*3)
-print("Result:",result)
+#way 2: without using third variable
+x=float(input("enter the x variable :"))
+y=float(input("enter the y variable :"))
+x,y=y,x
+print("value of x :",x , "and value of y :",y)
